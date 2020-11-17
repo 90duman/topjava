@@ -18,7 +18,6 @@ import java.time.temporal.ChronoUnit;
 import java.util.Objects;
 
 public class MealServlet extends HttpServlet {
-    private static final Logger log = LoggerFactory.getLogger(MealServlet.class);
 
     private ConfigurableApplicationContext springContext;
     private MealRestController mealController;
